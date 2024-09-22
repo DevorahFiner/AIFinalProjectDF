@@ -1,19 +1,22 @@
-# 🎈 Blank app template
+# Interactive Language Translator
 
-A simple Streamlit app template for you to modify!
+This project is an Interactive Language Translator app developed using Streamlit, Hugging Face Transformers, and other Python libraries. The app allows users to input text and translate it into different languages.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Project Structure
 
-### How to run it on your own machine
+- `app.py`: The main application script.
+- `requirements.txt`: A file listing all the dependencies needed to run the application.
+- `Instructions.txt`: Instructions for setting up and running the project.
 
-1. Install the requirements
+### Acknowledgements
+- Streamlit
+- Hugging Face Transformers
+- Google Text-to-Speech (gTTS)
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+### The project requires the following Python packages:
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- streamlit
+- transformers
+- gtts
+- torch
+- sentencepiece
