@@ -1,1 +1,11 @@
 streamlit
+transformers
+torch
+ollama
+huggingface-hub
+speechrecognition
+gtts
+pydub
+sentencepiece
+sacremoses
+pyttsx3
